@@ -1,5 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 clear
-bash solution.sh > output1.txt
-diff dest1.txt output.txt
-
+sh solution.sh > output1.txt
+diff dest1.txt output1.txt
